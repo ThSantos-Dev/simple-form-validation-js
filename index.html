@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header">
+                <h2>Create account</h2>
+            </div>
+        </header>
+        
+        <form action="" class="form" id="form">
+            <div class="form-control">
+                <label for="">Username</label>
+                <input type="text" id="username" placeholder="Username">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="">Email</label>
+                <input type="email" id="email" placeholder="email">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="">Password</label>
+                <input type="password" id="password" placeholder="password">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="">Password Check</label>
+                <input type="password" id="passwordCheck" placeholder="password">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <button>Submit</button>
+        </form>
+
+    </div>
+</body>
+</html>
